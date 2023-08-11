@@ -19,4 +19,10 @@ describe('CHALLENGE SPACEX', () => {
             cy.get('.launches-list-container').should('contain.text', data.LAUNCHE);
         });
     })
+
+    it('Checks home page loads', () => {
+        cy.fixture('spacexData').then((data) => {
+            cy.get('.launches-list-container').should('contain.text', data.SECONDARY_LAUNCH);
+        });
+    })
 })
