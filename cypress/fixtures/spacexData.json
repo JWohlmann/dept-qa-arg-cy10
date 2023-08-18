@@ -1,4 +1,5 @@
 {
   "LAUNCHE": "FalconSat",
-  "SECONDARY_LAUNCH": "Trailblazer"
+  "SECONDARY_LAUNCH": "Trailblazer",
+  "THIRD_LAUNCH": "DemoSat"
 }
